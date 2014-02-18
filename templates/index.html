@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% get_current_language as LANGUAGE %}
+        {% block content %}
+        <div class="row mainbox">
+            <div class="span7 offset1">
+                <h1><a href="/maptionnaire/">Maptionnaire</a> helps you ask "where".</h1>
+                <p class="lead">
+
+                {% blocktrans %}
+
+                Map based questionnaires bring together resident insight and planning expertise. It is an essential ingredient of modern community development that offers local knowledge in readily analyzable form.
+                {% endblocktrans %}
+
+                </p>
+            </div>
+            <div class="span3 offset1 visible-desktop">
+                <img src="/static/img/talot.png" alt="talot" width="236" height="304" />
+            </div>
+        </div> 
+        <div class="row value-proposals">
+            <div class="span1 value-image">
+                <img src="/static/img/nappula_i.png" alt="paikka info" width="55" height="83" />
+            </div>
+            <div class="span3 valuebox">
+                <h4 class="orange">{% trans "Find Local Knowledge" %}</h4>
+                <p>
+                {% blocktrans %}
+Experiential knowledge of local people is highly valuable, and our tools enable exploiting it to the full: Where are the most cherished places? Where is a connection needed? Which areas need renovation the most? Where do people feel unsafe?
+                {% endblocktrans %}
+                </p>
+            </div>
+            <div class="span1 value-image">
+                <img src="/static/img/nappula_ihmiset.png" alt="paikka ihmiset" width="55" height="83" />
+            </div>
+            <div class="span3 valuebox">
+                <h4 class="purple">{% trans "Lubricate Interaction" %}</h4>
+                <p>
+                {% blocktrans %}
+                When inhabitants are involved in the planning process early enough,  opposition is mitigated and interaction smoothened. We help you reduce costly legal complaints by allowing all parties contribute their insights and feedback at an appropriate time.
+                {% endblocktrans %}
+                </p>
+            </div>
+            <div class="span1 value-image">
+                <img src="/static/img/nappula_kysymys.png" alt="paikka kartta" width="55" height="83" />
+            </div>
+            <div class="span3 valuebox">
+                <h4 class="yellow">{% trans "Use Pioneering Technology" %}</h4>
+                <p>
+                {% blocktrans %}
+We have been conducting geographical questionnaires online since 2004 and our technology has been widely tested on end users. Questionnaires are tailored to suit the individual needs of customers, and plans and other data may be overlaid on the base map of your choice.
+                {% endblocktrans %}
+                </p>
+            </div>
+        </div>
+        
+        {% endblock content %}
