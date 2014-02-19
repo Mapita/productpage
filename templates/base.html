@@ -45,6 +45,9 @@
     {% if LANGUAGE != "fi" %}
         <a href="/fi/">Suomeksi</a>
     {% endif %}
+    {% if LANGUAGE != "en" %}
+        <a href="/en/">In English</a>
+    {% endif %}
     </div>
     <div class="span8">
         <div class="navbar">
@@ -57,7 +60,7 @@
                         <a href="/what-makes-it-different/">{% trans "What makes it different" %}</a>
                     </li>
                     <li {% if ref %}class="active"{% endif %}>
-                        <a href="/why-maps/">{% trans "Why maps" %}</a>
+                        <a href="/products-and-services/">{% trans "Products and services" %}</a>
                     </li>
                     <li {% if people %}class="active"{% endif %}>
                         <a href="/about-us/">{% trans "About us" %}</a>

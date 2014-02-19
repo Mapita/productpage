@@ -1,0 +1,264 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% get_current_language as LANGUAGE %}
+{% block content %}
+<div class="references">
+<div class="row">
+    <div class="span11 offset1">
+        <h2 class="purple">{% trans "Customers" %}</h2>
+    <p>
+    {% blocktrans %}We cherish every opportunity to help organize inspiring resident participation.
+The quality and usability of gathered information is of great importance to us, and we aim to remain permanently one step ahead.
+In addition to the list below we have carried out a lot of peer reviewed research ourselves.{% endblocktrans %}
+    
+    </p>
+    <br />
+        <div class="customer-projects">
+<table class="customer-projects">
+    <tr class="customer-row-first">
+        <td class="customer-date">{% trans "When" %}</td>
+        <td class="customer-name">{% trans "Who" %}</td>
+        <td class="customer-service">{% trans "What (In Finnish)" %}</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">11/2013</td>
+        <td class="customer-name">Oulun yliopiston maantieteen laitos</td>
+        <td class="customer-service">Väitöskirjatutkimus kansallispuistojen luontoarvoista</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">11/2013</td>
+        <td class="customer-name">Helsingin kaupunki</td>
+        <td class="customer-service">Helsinki 2050 - yleiskaavan asukaskysely</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">10/2013</td>
+        <td class="customer-name">MIG Ltd</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">10/2013</td>
+        <td class="customer-name">Metsähallitus</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">10/2013</td>
+        <td class="customer-name">Vaasan kaupunki</td>
+        <td class="customer-service">Raviradan ideakilpailusivusto</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">10/2013</td>
+        <td class="customer-name">Aalto-yliopiston Maankäyttötieteiden laitos</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">10/2013</td>
+        <td class="customer-name">Aalto-yliopisto</td>
+        <td class="customer-service">Maankäyttötieteiden laitoksen liikkumispäiväkirja-kysely</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">10/2013</td>
+        <td class="customer-name">University of Tehran</td>
+        <td class="customer-service">Väitöskirjatutkimusta</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">09/2013</td>
+        <td class="customer-name">Technische Universität München</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">09/2013</td>
+        <td class="customer-name">Turun kaupunki</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">09/2013</td>
+        <td class="customer-name">Hyvinkään kaupunki</td>
+        <td class="customer-service">Hangonsillan kaavaluonnoksen sähköinen kommentointi</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">09/2013</td>
+        <td class="customer-name">Faculdade de Motricidade Humana‐Universidade de Lisboa (FMH‐ULisboa)</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">08/2013</td>
+        <td class="customer-name">Metsähallitus</td>
+        <td class="customer-service">Sipoonkorven hoito- ja käyttösuunnitelman luonnoksen kommentointi (2. vaihe)</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">08/2013</td>
+        <td class="customer-name">Aalto-yliopisto</td>
+        <td class="customer-service">Enjustess-tutkimushankkeen kysely</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">08/2013</td>
+        <td class="customer-name">Aalto Yliopistokiinteistöt Oy</td>
+        <td class="customer-service">Otaniemen liikkumistapakysely</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">08/2013</td>
+        <td class="customer-name">Oregon State Parks</td>
+        <td class="customer-service">Columbia River Gorge -kansallispuiston kävijäkysely</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">08/2013</td>
+        <td class="customer-name">Kirkkonummen kunta</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">06/2013</td>
+        <td class="customer-name">Kehitysvammaliitto</td>
+        <td class="customer-service">Kehitysvammaisten asumiskysely</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">06/2013</td>
+        <td class="customer-name">Strafica Oy</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">04/2013</td>
+        <td class="customer-name">Universidade Federal do Rio Grande do Sul</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">04/2013</td>
+        <td class="customer-name">HSL</td>
+        <td class="customer-service">Länsimetron liityntäkysely</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">04/2013</td>
+        <td class="customer-name">Nurmijärven kunta</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">04/2013</td>
+        <td class="customer-name">Kauhajoen kaupunki</td>
+        <td class="customer-service">Senioriväestön asumistoiveet</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">04/2013</td>
+        <td class="customer-name">Kirkkonummen kunta</td>
+        <td class="customer-service">Keskustan osayleiskaavan asukaskysely</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">04/2013</td>
+        <td class="customer-name">Kirkkonummen kunta</td>
+        <td class="customer-service">Arkkitehtuuripoliittisen ohjelman asukaskysely</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">03/2013</td>
+        <td class="customer-name">Kirkkonummen kunta</td>
+        <td class="customer-service">Länsi-Jorvaksen asemakaavan asukaskysely</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">01/2013</td>
+        <td class="customer-name">Kouvolan kaupunki</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">01/2013</td>
+        <td class="customer-name">Mäntsälän kunta</td>
+        <td class="customer-service">Maptionnaire</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">12/2012</td>
+        <td class="customer-name">MIG Ltd.</td>
+        <td class="customer-service">St Louis keskusta-alueen käyttäjätutkimus</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">10/2012</td>
+        <td class="customer-name">Kouvolan kaupunki</td>
+        <td class="customer-service">Viheraluekysely</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">08/2012</td>
+        <td class="customer-name">Porvoon kaupunki</td>
+        <td class="customer-service">Kevätlaakson osayleiskaava</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">06/2012</td>
+        <td class="customer-name">Joensuun kaupunki</td>
+        <td class="customer-service">Viherkaavatyön kaksivaiheinen asukaskysely</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">05/2012</td>
+        <td class="customer-name">Metsähallitus</td>
+        <td class="customer-service">Sipoonkorven hoito- ja käyttösuunnitelman ohjelmointivaiheen ksyely (1.vaihe)</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">04/2012</td>
+        <td class="customer-name">Hyvinkään kaupunki</td>
+        <td class="customer-service">Hangonsillan ideakilpailun arviointisivusto</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">03/2012</td>
+        <td class="customer-name">Tuusulan kaupunki</td>
+        <td class="customer-service">Rykmentinpuiston osa-yleiskaavaluonnoksen kommentointi</td>
+    </tr>
+    <tr class="customer-row customer-row-even">
+        <td class="customer-date">02/2012</td>
+        <td class="customer-name">Kouvolan kaupunki</td>
+        <td class="customer-service">Keskustavision asukaskysely</td>
+    </tr>
+    <tr class="customer-row">
+        <td class="customer-date">01/2012</td>
+        <td class="customer-name">Hyvinkään kaupunki</td>
+        <td class="customer-service">Hangonratapihan ideakilpailu - lähtöaineiston kerääminen</td>
+    </tr>
+</table>
+        </div>
+        <div>
+            <h3 class="purple">{% trans "Researcher profiles and publications" %}</h3>
+        <p>
+        <a href="http://scholar.google.fi/citations?user=-hpHzRcAAAAJ&hl=en&oi=ao">Marketta Kyttä</a>
+        </p>
+        <p>
+        <a href="http://scholar.google.fi/citations?user=qzQsb5sAAAAJ&hl=en&oi=ao">Anna Broberg</a>
+        </p>
+        <p>
+        <a href="http://scholar.google.fi/citations?user=xsdLlSAAAAAJ&hl=en&oi=ao">Maarit Kahila</a>
+        </p>
+    </div>
+    {% if LANGUAGE == 'fi' %}
+    <div style="text-align:justify;">
+        <h3 class="purple">PehmoGIS</h3>
+        <p>
+PehmoGIS on nimitys tutkimusmenetelmille, joilla tarkastellaan subjektiivisia kokemuksia yhdistettynä paikkatietoon (GIS). Sanalla “pehmo” haluttiin painottaa inhimillistä näkökulmaa aikana, jolloin paikkatietoa käytettiin harvoin luonnontieteiden ulkopuolella.
+        </p>
+        <p>
+
+Mitä sitten on “subjektiivinen kokemus yhdistettynä paikkatietoon”? Vaikkapa tätä: levitetään kartta pöydälle, kirjoitetaan tarralapulle “Täällä nautin maisemista” ja liimataan lappu kartalle. Esimerkki on todellinen, sillä 90-luvulla nuori tutkija Marketta Kyttä kokosi ihmisiä työpajoihin liimaamaan fiilistarroja kartalle. Häntä oli alkanut harmittaa, miten abstraktisti päänsisäinen ja ulkoinen maailma kohtasivat ympäristöpsykologian kentällä. Perinteisesti tutkimusaineistoista ei selvinnyt tarkasti, missä maisemista nautittiin, vaan jokin etukäteen päätetty kategoria, kuten “puistossa”. Marketan tarrakartoista sen sijaan oli mahdollista huomata, että tiettyyn pisteeseen tietyssä puistossa kerääntyi huomattavan paljon positiivisia kokemuksia. Siellä on oltava jotakin erityistä, mennäänpä katsomaan tarkemmin!
+        </p>
+        <p>
+
+Ympäristöpsykologian lisäksi PehmoGIS-tutkimukselle oli tilausta osallistavassa kaupunkisuunnittelussa. Kun tietylle alueelle päätetään sijoittaa täydennysrakentamista, on arkkitehdeille kullanarvoista tietoa saada käsiinsä kartta, jolle on hahmoteltu paikallisten asukkaiden tuntemuksia. Esimerkiksi missä he pelkäävät, minne kaivataan uutta kävelyreittiä, mitä paikkoja pidetään rumina ja mikä on niin rakastettua, että siihen ei ainakaan saa kajota. Laajempaa yleiskaavaa pohtiessa on taas hyödyllistä vaikkapa tietää, miten alueet eroavat toisistaan asukkaiden arvojen ja arvostusten perusteella. Toisin sanoen PehmoGIS-tutkimus auttaa suunnittelijoita ymmärtämään alueita sekä paikallisesta että laajasta perspektiivistä.
+        </p>
+        <p>
+
+Tarrakartat olivat kuitenkin varsin työläitä sekä tutkijoille että vastaajille. Vastaajien piti vaivautua paikalle askartelemaan ja tutkijoiden täytyi digitalisoida aineisto analysointia varten. PehmoGIS otti menetelmänä valtavan harppauksen vuonna 2005, kun Järvenpäässä tutkittiin elinympäristön koettua laatua web-kartan päälle toteutetulla kyselyllä. Tutkijoille oli suuri helpotus saada vastausten koordinaatit suoraan sähköisessä muodossa ja vastaajat saattoivat täyttää kyselyn vaivatta kotikoneiltaan. Ensimmäistä kertaa saatiin kerättyä todella laaja aineisto ja vieläpä analysoitua sitä tehokkaasti.
+        </p>
+        <p>
+
+Seuraavat vuodet olivat tiivistä opettelun aikaa. Pohdittiin, mitä datasta voidaan saada irti tieteellisessä mielessä ja miten sitä voidaan käyttää maankäytön suunnittelun tukena. Pohdittiin, miten karttakyselyt kannattaa laatia, muotoilla ja visualisoida, jotta vastausaineisto olisi laadukkaampaa ja analysointi helpompaa. Vastaajan käyttöliittymää paranneltiin ja teknologia hiottiin luotettavaksi ja joustavaksi. Kokeiltiin, erehdyttiin, opittiin ja onnistuttiin. Lisäksi menetelmästä haluttiin tehdä tunnettu paitsi tutkimuskentällä, myös suunnittelijoiden parissa, mikä vaati valtavasti puheenvuoroja ja matkustamista ympäri maailmaa. Tulokset kuitenkin näkyvät: kyselyitä on toteutettu kuudella mantereella, tieteellisiä artikkeleita julkaistu vino pino ja PehmoGIS:in äidistä Marketasta on tullut maankäytön suunnittelun professori Aalto-yliopistossa.
+        </p>
+        <p>
+
+Avasimme osallistavassa suunnittelussa kokonaan uuden toimintamallin. Perinteisesti ainoa asukkaille tarjottu vaikuttamisen mahdollisuus oli tulla kertomaan mielipiteensä kaavasta työväentalolla torstaina klo 14:00. Tällä käytännöllä oli varsin vaikea edustavuusongelma, koska yleensä vain erittäin kriittiset asukkaat katsoivat paikalle saapumisen vaivan arvoiseksi. Toisaalta jos asukkailla oli isoja, täysin uusia ideoita, ne eivät tulleet kuulluiksi, koska niitä ei päässyt esittelemään riittävän aikaisessa vaiheessa. Moni kunta on kehittänyt toimintaansa jälkimmäisessä suhteessa ja alkanut tarjota luoville asukkaille työpajoja ja keskustelutilaa. Innostuneiden aktivistien ja oman takapihansa kärkkäiden puolustajien väliin jää kuitenkin usein suurin massa: ihmiset, joilla ei ole aikaa tai asiantuntemusta osallistua suunnitteluun intensiivisesti ja oma-aloitteisesti. Oikein käytettynä PehmoGIS-tutkimus kaivaa esiin myös heidän näkemyksensä. Se ei korvaa asukasiltoja eikä varjokaavoja, mutta täydentää niitä tarjoamalla helpon ja siten edustavan osallistumiskanavan.
+        </p>
+        <p>
+
+Mapitan tarina alkoi vuonna 2010, koska suomalaisissa kunnissa oli tutkimuksillemme kysyntää, johon yliopistoprojektit tuntuivat liian hitailta ja kalliilta vastaamaan. Aloimme myös kehittää teknologiaamme suuntaan, joka mahdollistaisi tee-se-itse-PehmoGISin, ja lopputulosta voitte kokeilla demosivuillamme.
+        </p>
+        <p>
+
+Nykyään meillä onkin monenlaisia asiakkaita ja yhteistyötahoja Suomessa ja ulkomailla. Jotkut haluavat ulkoistaa meille kokonaisen tutkimusprojektin, jolloin he saavat käyttöönsä kaiken asiantuntemuksemme aina lähtötilanteen määrittelystä lopputulosten esittelyyn. Toiset taas käyttävät teknologiaamme, mutta haluavat itse rakentaa kyselyt ja analysoida vastaukset. Mikä sopisi teille parhaiten? Ota yhteyttä: myynti@mapita.fi tai 0415396661.
+        </p>
+    </div>
+    {% endif %}
+
+    </div>
+</div>
+        
+</div>
+
+{% endblock %}

@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-19 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/about-us.html:8
+msgid "Inc."
+msgstr "Oy"
+
+#: templates/about-us.html:10
+msgid "We are a small Finnish company spawned from the research group"
+msgstr "Olemme pieni yritys, jonka juuret ovat Aalto-yliopiston "
+
+#: templates/about-us.html:14
+msgid "Land Use Planning and Urban Studies"
+msgstr "yhdyskuntasuunnittelun tutkimus- ja koulutusryhmässä,"
+
+#: templates/about-us.html:18
+msgid ""
+"of the Aalto university, where our team has conducted research on "
+"geographical online questionnaires since 2004."
+msgstr ""
+" missä olemme toteuttaneet karttapohjaisia kyselytutkimuksia vuodesta 2004."
+
+#: templates/about-us.html:20
+msgid ""
+"We specialize in planning geography and environmental psychology: in short, "
+"how to build an environment loved by its inhabitants."
+msgstr ""
+"Erityisosaamisalueitamme on suunnittelumaantiede ja ympäristöpsykologia: "
+"lyhyesti sanottuna, kuinka rakentaa ympäristö, jota asukkaat rakastavat."
+
+#: templates/about-us.html:23
+msgid "People"
+msgstr "Ihmiset"
+
+#: templates/base.html:15
+msgid "Maptionnaire by Mapita"
+msgstr "Mapitan Paikka! -palvelu"
+
+#: templates/base.html:60
+msgid "What makes it different"
+msgstr "Miten eroamme eduksemme"
+
+#: templates/base.html:63
+msgid "Products and services"
+msgstr "Tuotteet ja palvelut"
+
+#: templates/base.html:66
+msgid "About us"
+msgstr "Mapita"
+
+#: templates/base.html:69
+msgid "Our customers"
+msgstr "Asiakkaamme"
+
+#: templates/index.html:7
+msgid "Maptionnaire helps you ask 'where'"
+msgstr "Laita ympäristösi asiat kartalle"
+
+#: templates/index.html:10
+msgid ""
+"Map based questionnaires bring together resident insight and planning "
+"expertise. It is an essential ingredient of modern community development "
+"that offers local knowledge in readily analyzable form."
+msgstr ""
+"Karttapohjainen kyselytutkimus saattaa yhteen asukkaiden näkemyksen ja "
+"ammattilaisten suunnitteluosaamisen. Hyvä karttakysely tuottaa  "
+"suunnittelupäätösten tueksi paikallista tietoa helposti analysoitavassa "
+"muodossa."
+
+#: templates/index.html:25
+msgid "Find Local Knowledge"
+msgstr "Kerää paikallista tietoa"
+
+#: templates/index.html:27
+msgid ""
+"Experiential knowledge of local people is highly valuable, and our tools "
+"enable exploiting it to the full: Where are the most cherished places? Where "
+"is a connection needed? Which areas need renovation the most? Where do "
+"people feel unsafe?"
+msgstr ""
+"Kartoitamme alueellisen suunnittelun tueksi asukkaiden kokemustietoa, jotta "
+"voisitte parhaiten hyödyntää heidän arkista asiantuntijuuttaan: Missä ovat "
+"rakkaimmat paikat? Mistä puuttuu kulkuyhteys? Mitkä alueet kaipaisivat "
+"siistimistä? Missä koetaan turvattomuutta?"
+
+#: templates/index.html:35
+msgid "Lubricate Interaction"
+msgstr "Voitele vuorovaikutus"
+
+#: templates/index.html:37
+msgid ""
+"When inhabitants are involved in the planning process early enough,  "
+"opposition is mitigated and interaction smoothened. We help you reduce "
+"costly legal complaints by allowing all parties contribute their insights "
+"and feedback at an appropriate time."
+msgstr ""
+"Suunnittelu ja toteutus sujuvoituvat, kun kaikkia sidosryhmiä kuunnellaan "
+"ajoissa. Kokemuksestamme on hyötyä projektin kaikissa vaiheissa, ja autamme "
+"teitä välttämään pitkien valitusprosessien sudenkuopat kääntämällä "
+"vuorovaikutuksen ratkaisuhakuiseksi."
+
+#: templates/index.html:45
+msgid "Use Pioneering Technology"
+msgstr "Karttakyselyiden edelläkävijä"
+
+#: templates/index.html:47
+msgid ""
+"We have been conducting geographical questionnaires online since 2004 and "
+"our technology has been widely tested on end users. Questionnaires are "
+"tailored to suit the individual needs of customers, and plans and other data "
+"may be overlaid on the base map of your choice."
+msgstr ""
+"Olemme tehneet ja analysoineet kyselyitä vuodesta 2004 asti ja järjestelmä "
+"on hiottu erittäin helppokäyttöiseksi. Kyselyt räätälöidään ketterästi "
+"asiakkaan tarpeiden mukaan, pohjakartan saa valita itse ja sen päälle "
+"voidaan tuoda esimerkiksi kaavaluonnoksia."
+
+#: templates/our-customers.html:8
+msgid "Customers"
+msgstr "Asiakkaat"
+
+#: templates/our-customers.html:10
+msgid ""
+"We cherish every opportunity to help organize inspiring resident "
+"participation.\n"
+"The quality and usability of gathered information is of great importance to "
+"us, and we aim to remain permanently one step ahead.\n"
+"In addition to the list below we have carried out a lot of peer reviewed "
+"research ourselves."
+msgstr ""
+"Iloitsemme innostavan asukasosallistumisen järjestämisestä. "
+"Tuottamamme tiedon laatu ja käytettävyys on meille tärkeää, ja olemme pysyvästi "
+"askeleen edellä. Allaolevan listan lisäksi olemme itse tuottaneet paljon "
+"vertaisarvioitua tutkimusta."
+
+#: templates/our-customers.html:19
+msgid "When"
+msgstr "Milloin"
+
+#: templates/our-customers.html:20
+msgid "Who"
+msgstr "Kuka"
+
+#: templates/our-customers.html:21
+msgid "What (In Finnish)"
+msgstr "Mitä"
+
+#: templates/our-customers.html:211
+msgid "Researcher profiles and publications"
+msgstr "Tutkijaprofiilit ja julkaisut"

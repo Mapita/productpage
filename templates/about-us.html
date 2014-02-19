@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% get_current_language as LANGUAGE %}
+{% block content %}
+
+<div class="row peoplerow">
+    <div class="span11 offset1">
+        <h2 class="purple">Mapita {% trans "Inc." %}</h2>
+        <p>
+        {% blocktrans %}We are a small Finnish company spawned from the research group{% endblocktrans %}
+        
+        
+        <a href="http://ytk.aalto.fi/en/" target="_new">
+        {% blocktrans %}Land Use Planning and Urban Studies{% endblocktrans %}
+            
+        
+        </a>
+        {% blocktrans %}of the Aalto university, where our team has conducted research on geographical online questionnaires since 2004.{% endblocktrans %}
+        
+        {% blocktrans %}We specialize in planning geography and environmental psychology: in short, how to build an environment loved by its inhabitants.{% endblocktrans %}
+        
+        </p>
+        <h3 class="orange">{% trans "People" %}</h3>
+    </div>
+</div>
+<div class="row peoplerow">
+    <div class="span3 offset1 vcard" itemscope itemtype="http://schema.org/Person">
+        <div class="hidden">
+            <span class="org" itemprop="affiliation">Mapita Oy</span>
+        </div>
+        <img src="/static/img/maarit.JPG" height="320" width="213" itemprop="image" alt="Maarit Kahila kuva"/>
+        <h3 class="purple fn" itemprop="name">
+            <span itemprop="givenName">Maarit</span>
+            <span itemprop="familyName">Kahila</span>
+        </h3>
+        <p>
+            <span itemprop="jobTitle" class="role">Development director</span>, M.Sc.
+
+            <br /><span class="tel" itemprop="telephone">+358 40 562 6951</span><br />
+            <a class="email" href="mailto:maarit.kahila@mapita.fi" itemprop="email">
+                maarit.kahila@mapita.fi
+            </a>
+        </p>
+    </div>
+    <div class="span3 offset1 vcard" itemscope itemtype="http://schema.org/Person">
+        <div class="hidden">
+            <span class="org" itemprop="affiliation">Mapita Oy</span>
+        </div>
+        <img src="/static/img/a_broberg.jpg" height="320" width="213" itemprop="image" alt="Anna Broberg kuva"/>
+        <h3 class="orange fn" itemprop="name">
+            <span itemprop="givenName">Anna</span>
+            <span itemprop="familyName">Broberg</span>
+        </h3>
+        <p>
+            <span itemprop="jobTitle" class="role">Chief executive officer</span>, M.Sc.<br />
+            <span class="tel" itemprop="telephone">+358 50 538 8809</span><br />
+            <a class="email" href="mailto:anna.broberg@mapita.fi" itemprop="email">
+                anna.broberg@mapita.fi
+            </a>
+        </p>
+    </div>
+    <div class="span3 offset1 vcard" itemscope itemtype="http://schema.org/Person">
+        <div class="hidden">
+            <span class="org" itemprop="affiliation">Mapita Oy</span>
+        </div>
+        <img src="/static/img/marke.JPG" height="320" width="213" itemprop="image" alt="Marketta Kyttä kuva" />
+        <h3 class="turquoise fn" itemprop="name">
+            <span itemprop="givenName">Marketta</span>
+            <span itemprop="familyName">Kyttä</span>
+        </h3>
+        <p>
+            <span class="role" itemprop="jobTitle">Head of research</span>, Ph.D.
+<br />
+            <span class="tel" itemprop="telephone">+358 50 512 4583</span><br />
+            <a class="email" href="mailto:marketta.kytta@mapita.fi" itemprop="email">
+                marketta.kytta@mapita.fi
+            </a>
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="span3 offset1 vcard" itemscope itemtype="http://schema.org/Person">
+        <div class="hidden">
+            <span class="org" itemprop="affiliation">Mapita Oy</span>
+        </div>
+        <img src="/static/img/sakari.JPG" height="320" width="213" alt="Sakari Ellonen kuva" />
+        <h3 class="purple fn" itemprop="name">
+            <span itemprop="givenName">Sakari</span>
+            <span itemprop="familyName">Ellonen</span>
+        </h3>
+        <p>
+            <span itemprop="jobTitle" class="role">Chief technology officer</span>, M.Sc.
+
+            <br /><span class="tel" itemprop="telephone">+358 415396661</span><br />
+            <a class="email" href="mailto:sakari.ellonen@mapita.fi" itemprop="email">
+                sakari.ellonen@mapita.fi
+            </a>
+        </p>
+    </div>
+    <div class="span3 offset1 vcard" itemscope itemtype="http://schema.org/Person">
+        <div class="hidden">
+            <span class="org" itemprop="affiliation">Mapita Oy</span>
+        </div>
+        <img src="/static/img/mikko.JPG" height="320" width="213" itemprop="image" alt="Mikko Johansson kuva" />
+        <h3 class="orange fn" itemprop="name">
+            <span itemprop="givenName">Mikko</span>
+            <span itemprop="familyName">Johansson</span>
+        </h3>
+        <p>
+            <span itemprop="jobTitle" class="role">Software architect</span>, B.Sc.
+
+            <br />
+        </p>
+    </div>
+    <div class="span3 offset1 vcard" itemscope itemtype="http://schema.org/Person">
+        <div class="hidden">
+            <span class="org" itemprop="affiliation">Mapita Oy</span>
+        </div>
+        <img src="/static/img/toffe.JPG" height="320" width="213" alt="Kristoffer Snabb kuva" />
+        <h3 class="turquoise fn" itemprop="name">
+            <span itemprop="givenName">Kristoffer</span>
+            <span itemprop="familyName">Snabb</span>
+        </h3>
+        <p>
+            <span itemprop="jobTitle" class="role">Alumni</span>, M.Sc.
+
+            <br />
+        </p>
+    </div>
+</div>
+
+{% endblock %}
