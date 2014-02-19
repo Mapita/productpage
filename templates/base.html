@@ -54,19 +54,19 @@
             <div class="navbar-inner">
                 <ul class="nav">
                     <li {% if home %}class="active"{% endif %}>
-                        <a href="/">Home</a>
+                    <a href="/{{LANGUAGE}}/">Home</a>
                     </li>
                     <li {% if products %}class="active"{% endif %}>
-                        <a href="/what-makes-it-different/">{% trans "What makes it different" %}</a>
+                    <a href="/{{LANGUAGE}}/what-makes-it-different/">{% trans "What makes it different" %}</a>
                     </li>
                     <li {% if ref %}class="active"{% endif %}>
-                        <a href="/products-and-services/">{% trans "Products and services" %}</a>
+                    <a href="/{{LANGUAGE}}/products-and-services/">{% trans "Products and services" %}</a>
                     </li>
                     <li {% if people %}class="active"{% endif %}>
-                        <a href="/about-us/">{% trans "About us" %}</a>
+                    <a href="/{{LANGUAGE}}/about-us/">{% trans "About us" %}</a>
                     </li>
                     <li {% if softgis %}class="active"{% endif %}>
-                        <a href="/our-customers/">{% trans "Our customers" %}</a>
+                    <a href="/{{LANGUAGE}}/our-customers/">{% trans "Our customers" %}</a>
                     </li>
                 </ul>
             </div>
