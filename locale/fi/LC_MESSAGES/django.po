@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-30 13:03+0300\n"
+"POT-Creation-Date: 2014-05-30 16:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,23 +49,20 @@ msgstr ""
 msgid "People"
 msgstr "Ihmiset"
 
-#: templates/base.html:15
-msgid "Maptionnaire by Mapita"
-msgstr "Mapitan Paikka! -palvelu"
 
-#: templates/base.html:60
-msgid "What makes it different"
-msgstr "Miten eroamme eduksemme"
+#: templates/base.html:57
+msgid "Home"
+msgstr "Etusivu"
 
-#: templates/base.html:63 templates/products-and-services.html:7
+#: templates/base.html:61 templates/products-and-services.html:7
 msgid "Products and services"
 msgstr "Tuotteet ja palvelut"
 
-#: templates/base.html:66
+#: templates/base.html:64
 msgid "About us"
 msgstr "Mapita"
 
-#: templates/base.html:69
+#: templates/base.html:67
 msgid "Our customers"
 msgstr "Asiakkaamme"
 
@@ -84,11 +81,26 @@ msgstr ""
 "suunnittelupäätösten tueksi paikallista tietoa helposti analysoitavassa "
 "muodossa."
 
-#: templates/index.html:25
+#: templates/index.html:13
+msgid ""
+"Create questionnaires with our tool Maptionnaire or buy the research from "
+"Mapita."
+msgstr ""
+"Luo kyselyita Maptionnaire-työkalulla tai tilaa koko tutkimus Mapitalta."
+
+#: templates/index.html:17
+msgid "Try responding"
+msgstr "Kokeile vastaamista"
+
+#: templates/index.html:21
+msgid "Try creating a questionnaire of your own"
+msgstr "Kokeile kyselyn luomista"
+
+#: templates/index.html:34
 msgid "Find Local Knowledge"
 msgstr "Kerää paikallista tietoa"
 
-#: templates/index.html:27
+#: templates/index.html:36
 msgid ""
 "Experiential knowledge of local people is highly valuable, and our tools "
 "enable exploiting it to the full: Where are the most cherished places? Where "
@@ -100,11 +112,11 @@ msgstr ""
 "rakkaimmat paikat? Mistä puuttuu kulkuyhteys? Mitkä alueet kaipaisivat "
 "siistimistä? Missä koetaan turvattomuutta?"
 
-#: templates/index.html:35
+#: templates/index.html:44
 msgid "Lubricate Interaction"
 msgstr "Voitele vuorovaikutus"
 
-#: templates/index.html:37
+#: templates/index.html:46
 msgid ""
 "When inhabitants are involved in the planning process early enough,  "
 "opposition is mitigated and interaction smoothened. We help you reduce "
@@ -116,11 +128,11 @@ msgstr ""
 "teitä välttämään pitkien valitusprosessien sudenkuopat kääntämällä "
 "vuorovaikutuksen ratkaisuhakuiseksi."
 
-#: templates/index.html:45
+#: templates/index.html:54
 msgid "Use Pioneering Technology"
 msgstr "Karttakyselyiden edelläkävijä"
 
-#: templates/index.html:47
+#: templates/index.html:56
 msgid ""
 "We have been conducting geographical questionnaires online since 2004 and "
 "our technology has been widely tested on end users. Questionnaires are "
@@ -172,14 +184,18 @@ msgid ""
 "easy-to-use editor tool for the creation of surveys and analysis of "
 "respondent data. In addition, our team has a long background in peer-"
 "reviewed survey research and we offer consultation for successful data "
-"collection!"
+"collection."
 msgstr ""
-" on pilvipalvelu karttapohjaisille kyselytutkimuksille. Maptionnairessa on "
-"helppokäyttöinen, selainpohjainen työkalu, jolla luodaan ja analysoidaan "
-"kyselyt. Lisäksi tiimillämme on pitkä kokemus vertaisarvioidusta "
-"tutkimuksesta ja autamme teitä keräämään laadukkaan vastausaineiston."
+" on pilvipalvelu karttapohjaisille kyselyille. Kyselyjä on helppo luoda ja "
+"analysoida itse: tarvitset vain web-selaimen. Lisäksi tiimillämme on pitkä "
+"kokemus vertaisarvioidusta tutkimuksesta ja autamme teitä keräämään "
+"laadukkaan vastausaineiston."
 
-#: templates/products-and-services.html:18
+#: templates/products-and-services.html:16
+msgid "Buy it!"
+msgstr "Osta!"
+
+#: templates/products-and-services.html:19
 msgid ""
 "Most of our customers choose an annual subscription, which includes an "
 "unlimited number of questionnaires, but it is also possible to buy the "
@@ -189,45 +205,112 @@ msgstr ""
 "rajoittamattoman määrä kyselyitä, mutta palvelu on mahdollista ostaa myös "
 "yksittäiseen projektiin."
 
-#: templates/products-and-services.html:22
+#: templates/products-and-services.html:24
 msgid "Try it!"
 msgstr "Kokeile!"
 
-#: templates/products-and-services.html:25
+#: templates/products-and-services.html:26
 msgid "The best way to get a feeling what Maptionnaire is like is to"
 msgstr "Paras tapa tutustua Maptionnaireen on"
 
-#: templates/products-and-services.html:27
+#: templates/products-and-services.html:28
 msgid "Sign up for a test account"
 msgstr "luoda testikäyttäjätunnus"
 
-#: templates/products-and-services.html:29
+#: templates/products-and-services.html:30
 msgid "and start creating questionnaires immediately."
 msgstr "ja aloittaa tekemään kyselyitä saman tien."
 
-#: templates/products-and-services.html:30
+#: templates/products-and-services.html:31
 msgid "In addition, our"
 msgstr "Lisäksi"
 
-#: templates/products-and-services.html:32
+#: templates/products-and-services.html:33
 msgid "User Guide"
 msgstr "Käyttöoppaamme"
 
-#: templates/products-and-services.html:34
+#: templates/products-and-services.html:35
 msgid "offers more technical details."
 msgstr "tarjoaa tietoa teknisistä yksityiskohdista."
 
-#: templates/products-and-services.html:35
-msgid "And last but not least, we would love to get"
-msgstr "Viimeisenä, mutta ei vähäisimpänä, ilahdumme kovasti, jos"
+#: templates/products-and-services.html:36
+msgid ""
+"And last but not least, we would love to hear more about your needs: so "
+"please"
+msgstr ""
+"Viimeisenä, mutta ei vähäisimpänä: kuulemme ilomielin tarpeistanne lisää, "
+"joten"
 
-#: templates/products-and-services.html:37
-msgid "phone call"
-msgstr "soitatte"
+#: templates/products-and-services.html:38
+msgid "call us!"
+msgstr "soita meille!"
 
-#: templates/products-and-services.html:39
-msgid "from you!"
-msgstr "meille!"
+#: templates/products-and-services.html:43
+msgid "Why maps?"
+msgstr "Miksi kartta?"
+
+#: templates/products-and-services.html:47
+msgid ""
+"Almost all information has a geographical dimension, but it is very "
+"difficult to describe it in purely verbal terms."
+msgstr ""
+"Lähes kaikki informaatio kiinnittyy johonkin sijaintiin, mutta sanallisesti "
+"sitä on vaikea kuvata tarkasti."
+
+#: templates/products-and-services.html:50
+msgid ""
+"Imagine being in a new town without a map. How long a textual guide would "
+"you need to find your way around?"
+msgstr ""
+"Kuvittele saapuvasi uuteen kaupunkiin ilman karttaa. Kuinka pitkät "
+"sanalliset ohjeet tarvitsisit löytääksesi kaikki kiinnostavat paikat?"
+
+#: templates/products-and-services.html:53
+msgid "Map is required when you need to ask"
+msgstr "Kartta tarvitaan, kun haluat kysyä"
+
+#: templates/products-and-services.html:53
+msgid "Where ...?"
+msgstr "Missä ...?"
+
+#: templates/products-and-services.html:56
+msgid ""
+"Maptionnaire combines an interactive map with traditional questionnaire forms"
+msgstr ""
+"Maptionnairessa yhdistyvät interaktiivinen kartta ja perinteiset "
+"kyselylomakkeet"
+
+#: templates/products-and-services.html:64
+msgid "Why online participation?"
+msgstr "Miksi verkko-osallistumista?"
+
+#: templates/products-and-services.html:67
+msgid ""
+"Online tools allow the participation of thousands of people at low cost."
+msgstr "Verkossa tuhannet ihmiset voivat osallistua hyvin pienin kustannuksin."
+
+#: templates/products-and-services.html:68
+msgid ""
+"Bringing participants together is time consuming and expensive, and only a "
+"handful of people get to have their say."
+msgstr ""
+"Osallistujien saattaminen kasvokkain yhteen on aikaavievää ja kallista, "
+"minkä lisäksi vain kourallinen ihmisiä pääsee ilmaisemaan mielipiteensä."
+
+#: templates/products-and-services.html:69
+msgid "Various, wider groups of people can participate online."
+msgstr ""
+"Verkossa pystyvät osallistumaan myös ne, jotka eivät työpajoihin pääse."
+
+#: templates/products-and-services.html:70
+msgid "Possible to locate places, routes, and areas with high precision."
+msgstr ""
+"Interaktiivinen kartta mahdollistaa paikkojen, reittien ja alueiden "
+"merkitsemisen tarkasti."
+
+#: templates/products-and-services.html:71
+msgid "Digital coordinates enable efficient analysis and visualizations."
+msgstr "Digitaaliset koordinaatit tehostavat analyysiä ja visualisointeja."
 
 #: templates/what-makes-it-different.html:7
 msgid "What makes Maptionnaire different"
@@ -251,88 +334,47 @@ msgstr "Rykmentinpuiston kaavavaihtoehtojen arviointi."
 msgid "Survey for the evaluation of coastal areas in Helsinki"
 msgstr "Kysely vesialueiden käytöstä pääkaupunkiseudulla"
 
-#: templates/what-makes-it-different.html:27
-msgid "Why maps?"
-msgstr "Miksi kartta?"
+#~ msgid ""
+#~ "High quality data gathered validates planning choices and helps "
+#~ "discussions with all involved parties."
+#~ msgstr ""
+#~ "Laadukas vastausaineisto tukee suunnitteluratkaisuja ja helpottaa "
+#~ "keskusteluja sidosryhmien kanssa."
 
-#: templates/what-makes-it-different.html:31
-msgid ""
-"Almost all information has a geographical dimension, but it is very "
-"difficult to describe it in purely verbal terms."
-msgstr ""
-"Lähes kaikki informaatio kiinnittyy johonkin sijaintiin, mutta sanallisesti "
-"sitä on vaikea kuvata tarkasti."
+#~ msgid "phone call"
+#~ msgstr "soitatte"
 
-#: templates/what-makes-it-different.html:32
-msgid ""
-"Imagine being in a new town without a map. How long a textual guide would "
-"you need to find your way around?"
-msgstr ""
-"Kuvittele saapuvasi uuteen kaupunkiin ilman karttaa. Kuinka pitkät "
-"sanalliset ohjeet tarvitsisit löytääksesi kaikki kiinnostavat paikat?"
+#~ msgid "from you!"
+#~ msgstr "meille!"
 
-#: templates/what-makes-it-different.html:35
-msgid ""
-"Maptionnaire was born from the realization that questionnaire tools without "
-"a map are unusable for questions starting with"
-msgstr ""
-"Maptionnaire syntyi käsityksestä, että kartta on välttämätön voidaksemme "
-"esittää kysymyksiä, jotka alkavat"
+#~ msgid "What makes it different"
+#~ msgstr "Miten eroamme eduksemme"
 
-#: templates/what-makes-it-different.html:35
-msgid "Where ...?"
-msgstr "Missä ...?"
+#~ msgid ""
+#~ "Maptionnaire was born from the realization that questionnaire tools "
+#~ "without a map are unusable for questions starting with"
+#~ msgstr ""
+#~ "Maptionnaire syntyi käsityksestä, että kartta on välttämätön voidaksemme "
+#~ "esittää kysymyksiä, jotka alkavat"
 
-#: templates/what-makes-it-different.html:41
-msgid "What do questionnaires have to do with participatory planning?"
-msgstr "Mitä tekemistä kyselyillä on osallistavan suunnittelun kanssa?"
+#~ msgid "What do questionnaires have to do with participatory planning?"
+#~ msgstr "Mitä tekemistä kyselyillä on osallistavan suunnittelun kanssa?"
 
-#: templates/what-makes-it-different.html:44
-msgid ""
-"From an urban planner’s point of view, participation is often driven by "
-"questions: you need to know what the locals know, and the best way to find "
-"out is to ask them."
-msgstr ""
-"Suunnittelijan näkökulmasta osallistuminen on usein vastausten hakemista "
-"kysymyksiin: pitäisi tietää, mitä paikalliset tietävät, ja paras tapa saada "
-"selville on kysyä heiltä."
+#~ msgid ""
+#~ "From an urban planner’s point of view, participation is often driven by "
+#~ "questions: you need to know what the locals know, and the best way to "
+#~ "find out is to ask them."
+#~ msgstr ""
+#~ "Suunnittelijan näkökulmasta osallistuminen on usein vastausten hakemista "
+#~ "kysymyksiin: pitäisi tietää, mitä paikalliset tietävät, ja paras tapa "
+#~ "saada selville on kysyä heiltä."
 
-#: templates/what-makes-it-different.html:47
-msgid ""
-"Where are the most cherished places? Where is a connection needed? Which "
-"areas need renovation? Where do people feel unsafe?..."
-msgstr ""
-"Missä ovat rakkaimmat paikat? Mistä puuttuu kulkuyhteys? Mitkä alueet "
-"kaipaisivat siistimistä? Missä koetaan turvattomuutta?"
+#~ msgid ""
+#~ "Where are the most cherished places? Where is a connection needed? Which "
+#~ "areas need renovation? Where do people feel unsafe?..."
+#~ msgstr ""
+#~ "Missä ovat rakkaimmat paikat? Mistä puuttuu kulkuyhteys? Mitkä alueet "
+#~ "kaipaisivat siistimistä? Missä koetaan turvattomuutta?"
 
-#: templates/what-makes-it-different.html:51
-msgid "Why not only face to face?"
-msgstr "Miksi kommunikointi kasvotusten ei riitä?"
-
-#: templates/what-makes-it-different.html:54
-msgid ""
-"Bringing residents together at workshops is time consuming and expensive, "
-"and only a handful of people get to have their say."
-msgstr ""
-"Asukkaiden kokoaminen työpajoihin on aikaavievää ja kallista, minkä lisäksi "
-"vain kourallinen ihmisiä pääsee ilmaisemaan mielipiteensä."
-
-#: templates/what-makes-it-different.html:55
-msgid ""
-"In contrast, online tools allow the participation of thousands of people at "
-"low cost."
-msgstr ""
-"Sitä vastoin verkossa tuhannet ihmiset voivat osallistua hyvin pienin "
-"kustannuksin."
-
-#: templates/what-makes-it-different.html:56
-msgid "Different, wider groups of people can participate online"
-msgstr "Erilaiset, laajemmat ihmisryhmät pystyvät osallistumaan verkossa."
-
-#: templates/what-makes-it-different.html:57
-msgid ""
-"High quality data gathered validates planning choices and helps discussions "
-"with the participants."
-msgstr ""
-"Laadukas vastausaineisto tukee suunnitteluratkaisuja ja helpottaa "
-"keskusteluja sidosryhmien kanssa."
+#~ msgid "Why not only face to face?"
+#~ msgstr "Miksi kommunikointi kasvotusten ei riitä?"

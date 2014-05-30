@@ -347,25 +347,12 @@ h2 {
 
 /* link styles */
 
-.mainbox a {
-    color:#f47920;
-}
-.mainbox a:hover {
-    color:#f47920;
-}
-.valuebox a, .peoplerow a, .references a, .paikka a{
-    color:#1faeae;
-}
-#footer a, .story a {
+a {
     color:#1faeae;
 }
 .langbar a {
     float: right;
-    color:#1faeae !important;
     margin-top: 11px;
-}
-.navbar a {
-    color:#1faeae !important;
 }
 .customer-row-first {
     color:#f47920;
