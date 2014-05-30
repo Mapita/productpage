@@ -1,55 +1,43 @@
 {% extends 'base.html' %}
+{% load i18n %}
 {% block content %}
 <div class="paikka">
 <div class="row">
     <div class="span11 offset1">
-        <h2 class="purple">Products and services</h2>
+        <h2 class="purple">{% trans "Products and services" %}</h2>
     </div>
     <div class="span7 offset1">
         <div>
             <p>
-            Maptionnaire is a cloud service for map based online surveys.
-            </p>
-            <p>
-            All customers get graphical customization  and dedicated support, in particular with geographical information systems (GIS). Maptionnaire comes with an easy-to-use editor tool for the creation of surveys and analysis of respondent data. In addition, our team has a long background in peer-reviewed survey research and we offer consultation for successful data collection!
+            <a href='http://maptionnaire.com' target='_blank'>Maptionnaire</a>
+            {% trans "is a cloud service for map based online surveys. Maptionnaire comes with an easy-to-use editor tool for the creation of surveys and analysis of respondent data. In addition, our team has a long background in peer-reviewed survey research and we offer consultation for successful data collection!" %}
             </p>
         </div>
         <div>
             <p>
-            Most of our customers choose an annual subscription, which includes an unlimited number of questionnaires. It is also possible to buy the service for a single project of arbitrary length.
+            {% trans "Most of our customers choose an annual subscription, which includes an unlimited number of questionnaires, but it is also possible to buy the service for a single project." %}
             </p>
 
         </div> 
-        <h4 class="orange">Details</h4>
+        <h4 class="orange">{% trans "Try it!" %}</h4>
         <div>
-            <ul>
-                <li>
-                In addition to maps by big providers such as MapQuest, you may use custom maps: either directly from your WMS server or by uploading them to our server.
-                </li>
-                <li>
-                Maptionnaire offers an in-browser analysis tool for the map markers placed by respondents.<a href="{{STATIC_URL}}img/screenshot_analysis_helsinki.png">Screenshot from the analysis tool</a>. A few example queries one can make with it:
-                    <ul>
-                        <li>
-                        Show all markers from a drawbutton "Community asset".
-                        </li>
-                        <li>
-                        Show all markers from drawbuttons named "Community asset" or "Destination of recreation" and made by respondents who are over 70 years old, female, and who do not have a university degree.
-                        </li>
-                        <li>
-                        Show responses to the follow up question "Tell us more about this place" related markers located within chosen boundaries. (Markers may be filtered as above).
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                Maptionnaire draws quite a few charts with a single click. <a href="{{STATIC_URL}}img/hki_yleiskaava_range.png">Example of a chart</a>
-                </li>
-                <li>
-                We pay close attention to the usability of the response data: all responses come in a self-explanatory form without separate meta files. Also, should you have a questionnaire in multiple languages, response data is translated and combined into a single language (except for open answers).
-                </li>
-                <li>
-                Responses are saved in real time, so you will be able to monitor respondent behaviour even if they do not finish the survey.
-                </li>
-            </ul>
+            <p>
+            {% trans "The best way to get a feeling what Maptionnaire is like is to" %}
+            <a href='http://maptionnaire.com/register/' target='_blank'>
+                {% trans "Sign up for a test account" %}
+            </a>
+            {% trans "and start creating questionnaires immediately." %}
+            {% trans "In addition, our" %}
+            <a href='https://docs.google.com/document/d/1RSl7iEcc_z8yMNc7h34v8kUwFZoiPV--qi50rBEfarU/pub' target='_blank'>
+                {% trans "User Guide" %}
+            </a>
+            {% trans "offers more technical details." %}
+            {% trans "And last but not least, we would love to get" %}
+            <a href='/about-us/'>
+                {% trans "phone call" %}
+            </a>
+            {% trans "from you!" %}
+            </p>
         </div> 
     </div>
 </div>
