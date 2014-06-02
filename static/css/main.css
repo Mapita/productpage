@@ -384,3 +384,12 @@ table.customer-projects tbody tr:nth-child(odd) {
   -webkit-box-shadow: 3px 3px 8px 2px #b6b6b6;
   box-shadow:         3px 3px 8px 2px #b6b6b6;
 }
+
+.project-cards {
+  max-width: 850px;
+}
+
+.project-card {
+  float: left;
+  padding: 5px 30px;
+}

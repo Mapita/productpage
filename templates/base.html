@@ -39,7 +39,7 @@
                 <img src="/static/img/mapita_logo_pieni.png" alt="logo" width="186" height="65" />
             </a>
         </div>
-            
+
     {% block navbar %}
     <div class="span2 langbar">
     {% if LANGUAGE != "fi" %}
@@ -56,16 +56,21 @@
                     <li {% if home %}class="active"{% endif %}>
                     <a href="/{{LANGUAGE}}/">{% trans "Home" %}</a>
                     </li>
-                    <li {% if products %}class="active"{% endif %}>
                     <li {% if ref %}class="active"{% endif %}>
+                    <li {% if products %}class="active"{% endif %}>
                     <a href="/{{LANGUAGE}}/products-and-services/">{% trans "Products and services" %}</a>
                     </li>
                     <li {% if people %}class="active"{% endif %}>
                     <a href="/{{LANGUAGE}}/about-us/">{% trans "About us" %}</a>
                     </li>
-                    <li {% if softgis %}class="active"{% endif %}>
+                    <li {% if customers %}class="active"{% endif %}>
                     <a href="/{{LANGUAGE}}/our-customers/">{% trans "Our customers" %}</a>
                     </li>
+                    {% if LANGUAGE == 'fi' %}
+                        <li {% if project %}class="active"{% endif %}>
+                        <a href="/{{LANGUAGE}}/project-cards/">{% trans "Asiakasprojekteja" %}</a>
+                        </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>

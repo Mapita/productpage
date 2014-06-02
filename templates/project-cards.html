@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+{% get_current_language as LANGUAGE %}
+{% block content %}
+<div class="row">
+    <div class="span11 offset1">
+    <h2 class="purple">{% trans 'Asiakasprojekteja' %}</h2>
+    <p>
+        {% trans 'Mapitalla on ollut ilo tehdä töitä lukuisien asiakkaiden kanssa. Toimintamme vuosiin mahtuu monta onnistunutta tarinaa.' %}
+    </p>
+    <p>
+    {% blocktrans %}
+        Olemme suunnitelleet asiakkaille juuri heidän tarpeisiinsa vastaavia kyselytutkimuksia ja olleet
+        hankkeissa mukana alusta loppuun saakka. Olemme analysoineet kiehtovia vastausaineistoja ja
+        tarttuneet innolla teknologian uusiin mahdollisuuksiin. Palvelumme on taipunut myös
+        havainnekuvien esittelyyn ja ideakilpailun palautesivuston luomiseen. Asiakkaat eri
+        maissa ovat käyttäneet Maptionnairea myös itsenäisesti kyselytutkimuksen tekoon.
+    {% endblocktrans %}
+    </p>
+    <p>
+        {% trans 'Tutustu asiakastöihimme ja Maptionnairelle tehtyihin tutkimuksiin!' %}
+    <br />
+<!--  Rakennemalli_yleiskaavatyön_pohjana_thumb.png-->
+
+
+
+        <div class="project-cards">
+        <div class="project-card">
+            <a href="{% static "pdf/Helsinki 2050-kysely.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Tuhannet_ideoivat_tulevaisuuden_Helsinkiä_thumb.png" %}" alt="Helsinki 2050-kysely" title="Helsinki 2050-kysely" height="186" width="139"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/Sipoonkorpi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Paikallistietämystä_luonnonpuiston_kehitystyöhön_thumb.png" %}" alt="Sipoonkorpi" title="Sipoonkorpi" height="186" width="139"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/Ideakilpailun_työt_asukkaiden_arvioitaviksi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Ideakilpailun_työt_asukkaiden_arvioitaviksi_thumb.png" %}" alt="" title="" height="186" width="139"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/Kasarmista_asuinalueeksi_(Tuusula).pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Kasarmista_asuinalueeksi_(Tuusula)_thumb.png" %}" alt="" title="" height="186" width="139"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/Kevätlaaksoa_kaavoitetaan_liikkumiseen_(Porvoo).pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Kevätlaaksoa_kaavoitetaan_liikkumiseen_(Porvoo)_thumb.png" %}" alt="" title="" height="186" width="139"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/Kiinteistöyritys_kartoitti_kampusaluetta.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Kiinteistöyritys_kartoitti_kampusaluetta_thumb.png" %}" alt="" title="" height="186" width="139"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/Osallistavaa_suunnittelua_Hyvinkäällä_(Hangonsilta).pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Osallistavaa_suunnittelua_Hyvinkäällä_thumb.png" %}" alt="" title="" height="186" width="139"/>
+            </a>
+        </div>
+<!--         <div class="project-card">
+            <a href="{% static "pdf/Teheranilaisteinit_käyttivät_Maptionnairea_persiaksi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Helsinki_2050-kysely_thumb.png" %}" alt="" title="" height="186" width="139"/>
+            </a>
+        </div>
+ -->
+         <div class="project-card">
+            <a href="{% static "pdf/Viherkaavavisiot_kartalle_(Joensuu).pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Viherkaavavisiot_kartalle_thumb.png" %}" alt="" title="" height="186" width="139"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/Yliopistossa_tutkittiin_vesistöjen_virkistyskäyttöä_(Aalto)1.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Yliopistossa_tutkittiin_vesistöjen_virkistyskäyttöä_thumb.png" %}" alt="" title="" height="186" width="139"/>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+</div>
+
+{% endblock %}
