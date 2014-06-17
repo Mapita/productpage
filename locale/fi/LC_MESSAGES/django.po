@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-30 16:57+0300\n"
+"POT-Creation-Date: 2014-06-17 17:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,6 @@ msgstr ""
 msgid "People"
 msgstr "Ihmiset"
 
-
 #: templates/base.html:57
 msgid "Home"
 msgstr "Etusivu"
@@ -66,6 +65,10 @@ msgstr "Mapita"
 msgid "Our customers"
 msgstr "Asiakkaamme"
 
+#: templates/base.html:71
+msgid "Asiakasprojekteja"
+msgstr ""
+
 #: templates/index.html:7
 msgid "Maptionnaire helps you ask 'where'"
 msgstr "Laita ympäristösi asiat kartalle"
@@ -81,26 +84,19 @@ msgstr ""
 "suunnittelupäätösten tueksi paikallista tietoa helposti analysoitavassa "
 "muodossa."
 
-#: templates/index.html:13
-msgid ""
-"Create questionnaires with our tool Maptionnaire or buy the research from "
-"Mapita."
-msgstr ""
-"Luo kyselyita Maptionnaire-työkalulla tai tilaa koko tutkimus Mapitalta."
-
-#: templates/index.html:17
+#: templates/index.html:16
 msgid "Try responding"
 msgstr "Kokeile vastaamista"
 
-#: templates/index.html:21
+#: templates/index.html:20
 msgid "Try creating a questionnaire of your own"
 msgstr "Kokeile kyselyn luomista"
 
-#: templates/index.html:34
+#: templates/index.html:33
 msgid "Find Local Knowledge"
 msgstr "Kerää paikallista tietoa"
 
-#: templates/index.html:36
+#: templates/index.html:35
 msgid ""
 "Experiential knowledge of local people is highly valuable, and our tools "
 "enable exploiting it to the full: Where are the most cherished places? Where "
@@ -112,11 +108,11 @@ msgstr ""
 "rakkaimmat paikat? Mistä puuttuu kulkuyhteys? Mitkä alueet kaipaisivat "
 "siistimistä? Missä koetaan turvattomuutta?"
 
-#: templates/index.html:44
+#: templates/index.html:43
 msgid "Lubricate Interaction"
 msgstr "Voitele vuorovaikutus"
 
-#: templates/index.html:46
+#: templates/index.html:45
 msgid ""
 "When inhabitants are involved in the planning process early enough,  "
 "opposition is mitigated and interaction smoothened. We help you reduce "
@@ -128,11 +124,11 @@ msgstr ""
 "teitä välttämään pitkien valitusprosessien sudenkuopat kääntämällä "
 "vuorovaikutuksen ratkaisuhakuiseksi."
 
-#: templates/index.html:54
+#: templates/index.html:53
 msgid "Use Pioneering Technology"
 msgstr "Karttakyselyiden edelläkävijä"
 
-#: templates/index.html:56
+#: templates/index.html:55
 msgid ""
 "We have been conducting geographical questionnaires online since 2004 and "
 "our technology has been widely tested on end users. Questionnaires are "
@@ -174,7 +170,7 @@ msgstr "Kuka"
 msgid "What (In Finnish)"
 msgstr "Mitä"
 
-#: templates/our-customers.html:211
+#: templates/our-customers.html:281
 msgid "Researcher profiles and publications"
 msgstr "Tutkijaprofiilit ja julkaisut"
 
@@ -312,6 +308,30 @@ msgstr ""
 msgid "Digital coordinates enable efficient analysis and visualizations."
 msgstr "Digitaaliset koordinaatit tehostavat analyysiä ja visualisointeja."
 
+#: templates/project-cards.html:8
+msgid "Customer projects"
+msgstr "Asiakasprojekteja"
+
+#: templates/project-cards.html:10
+msgid "Mapita has had the privilege of working with a number of customers."
+msgstr "Toimintamme vuosiin mahtuu monta onnistunutta tarinaa."
+
+#: templates/project-cards.html:11
+msgid ""
+"We have been involved in their projects from the beginning to the end, and "
+"designed highly customized research for their needs."
+msgstr ""
+"Olemme suunnitelleet asiakkaille juuri heidän tarpeisiinsa vastaavia "
+"kyselytutkimuksia ja olleet hankkeissa mukana alusta loppuun saakka. Olemme "
+"analysoineet kiehtovia vastausaineistoja ja tarttuneet innolla teknologian "
+"uusiin mahdollisuuksiin. Palvelumme on taipunut myös havainnekuvien "
+"esittelyyn ja ideakilpailun palautesivuston luomiseen. Asiakkaat eri maissa "
+"ovat käyttäneet Maptionnairea myös itsenäisesti kyselytutkimuksen tekoon."
+
+#: templates/project-cards.html:14
+msgid "Have a look and get inspired!"
+msgstr "Tutustu asiakastöihimme ja Maptionnairelle tehtyihin tutkimuksiin! "
+
 #: templates/what-makes-it-different.html:7
 msgid "What makes Maptionnaire different"
 msgstr "Miten eroamme eduksemme"
@@ -333,6 +353,12 @@ msgstr "Rykmentinpuiston kaavavaihtoehtojen arviointi."
 #: templates/what-makes-it-different.html:21
 msgid "Survey for the evaluation of coastal areas in Helsinki"
 msgstr "Kysely vesialueiden käytöstä pääkaupunkiseudulla"
+
+#~ msgid ""
+#~ "Create questionnaires with our tool Maptionnaire or buy the research from "
+#~ "Mapita."
+#~ msgstr ""
+#~ "Luo kyselyita Maptionnaire-työkalulla tai tilaa koko tutkimus Mapitalta."
 
 #~ msgid ""
 #~ "High quality data gathered validates planning choices and helps "
