@@ -66,11 +66,9 @@
                     <li {% if customers %}class="active"{% endif %}>
                     <a href="/{{LANGUAGE}}/our-customers/">{% trans "Our customers" %}</a>
                     </li>
-                    {% if LANGUAGE == 'fi' %}
-                        <li {% if project %}class="active"{% endif %}>
-                        <a href="/{{LANGUAGE}}/project-cards/">{% trans "Asiakasprojekteja" %}</a>
-                        </li>
-                    {% endif %}
+                    <li {% if project %}class="active"{% endif %}>
+                    <a href="/{{LANGUAGE}}/project-cards/">{% trans "Asiakasprojekteja" %}</a>
+                    </li>
                 </ul>
             </div>
         </div>

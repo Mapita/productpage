@@ -21,8 +21,8 @@
     <p>
         {% trans 'Tutustu asiakastöihimme ja Maptionnairelle tehtyihin tutkimuksiin!' %}
     <br />
-
     <div class="project-cards">
+    {% if LANGUAGE == 'fi' %}
         <div class="project-card">
             <a href="{% static "pdf/Helsinki 2050-kysely.pdf" %}" target="_blank">
                 <img src="{% static "img/thumbs/Tuhannet_ideoivat_tulevaisuuden_Helsinkiä_thumb.png" %}" alt="Helsinki 2050-kysely" title="Helsinki 2050-kysely" height="266" width="199"/>
@@ -78,7 +78,63 @@
                 <img src="{% static "img/thumbs/Rakennemalli_yleiskaavatyön_pohjana_thumb.png" %}" alt="Rakennemalli yleiskaavatyön pohjana" title="Rakennemalli yleiskaavatyön pohjana" height="266" width="199"/>
             </a>
         </div>
-
+    {% else %}
+        <div class="project-card">
+            <a href="{% static "pdf/en/Academic research on recreational water use (Aalto).pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Academic_research_on_thumb.png" %}" alt="" title="" height="266" width="199"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Designing a campus for cycling and walking (Aalto).pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Designing_a_campus_for_cycling_and_walking_(Aalto)_thumb.png" %}" alt="" title="" height="266" width="199"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Improving_a_national_park_with_local_insight(1).pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Improving_a_national_park_with_local_insight_thumb.png" %}" alt="" title="" height="266" width="199"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Mapping_out_ideas.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Mapping_out_ideas_thumb.png" %}" alt="" title="" height="266" width="199"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Participatory_planning_for_a_new_residential_area.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Participatory_planning_for_a_new_residential_area_thumb.png" %}" alt="" title="" height="266" width="199"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Seven_Model_Structures_with_Maptionnaire.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Seven_Model_Structures_with_Maptionnaire_thumb.png" %}" alt="" title="" height="266" width="199"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/TehranEn.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Tehrani_teenagers_used_Maptionnaire_in_Farsi_thumb.png" %}" alt="" title="" height="266" width="199"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Thousands envisioned the future of Helsinki.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Thousands_envisioned_the_future_of_Helsinki_thumb.png" %}" alt="" title="" height="266" width="199"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/TuusulaEn.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Tuusula_thumb.png" %}" alt="" title="" height="266" width="199"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Urban planning for smooth transportation.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Urban_planning_for_smooth_thumb.png" %}" alt="" title="" height="266" width="199"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/VaasaArchitecturalEn.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/VaasaArchitectural_thumb.png" %}" alt="" title="" height="266" width="199"/>
+            </a>
+        </div>
+    {% endif %}
     </div>
 </div>
 
