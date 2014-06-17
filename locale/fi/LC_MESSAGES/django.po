@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-17 17:26+0300\n"
+"POT-Creation-Date: 2014-06-17 14:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,9 +65,9 @@ msgstr "Mapita"
 msgid "Our customers"
 msgstr "Asiakkaamme"
 
-#: templates/base.html:71
-msgid "Asiakasprojekteja"
-msgstr ""
+#: templates/base.html:70 templates/project-cards.html:8
+msgid "Customer projects"
+msgstr "Asiakasprojekteja"
 
 #: templates/index.html:7
 msgid "Maptionnaire helps you ask 'where'"
@@ -307,10 +307,6 @@ msgstr ""
 #: templates/products-and-services.html:71
 msgid "Digital coordinates enable efficient analysis and visualizations."
 msgstr "Digitaaliset koordinaatit tehostavat analyysiä ja visualisointeja."
-
-#: templates/project-cards.html:8
-msgid "Customer projects"
-msgstr "Asiakasprojekteja"
 
 #: templates/project-cards.html:10
 msgid "Mapita has had the privilege of working with a number of customers."
