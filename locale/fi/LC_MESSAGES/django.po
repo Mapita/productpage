@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-12 09:42+0000\n"
-"PO-Revision-Date: 2014-08-12 12:43+0200\n"
+"PO-Revision-Date: 2014-08-13 11:16+0200\n"
 "Last-Translator: Mikko Johansson <mikko.johansson@mapita.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -33,7 +33,7 @@ msgstr "http://ytk.aalto.fi/"
 
 #: templates/about-us.html:14
 msgid "Land Use Planning and Urban Studies"
-msgstr "yhdyskuntasuunnittelun tutkimus- ja koulutusryhmässä,"
+msgstr "yhdyskuntasuunnittelun tutkimus- ja koulutusryhmässä."
 
 #: templates/about-us.html:18
 msgid ""
