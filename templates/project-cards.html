@@ -13,64 +13,150 @@
     <p>
         {% trans "Have a look and get inspired!" %}
     <br />
-
     <div class="project-cards">
+    {% if LANGUAGE == 'fi' %}
         <div class="project-card">
-            <a href="{% static "pdf/Helsinki 2050-kysely.pdf" %}" target="_blank">
-                <img src="{% static "img/thumbs/Tuhannet_ideoivat_tulevaisuuden_Helsinkiä_thumb.png" %}" alt="Helsinki 2050-kysely" title="Helsinki 2050-kysely" height="266" width="199"/>
+            <a href="{% static "pdf/PkHelsinki2050_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/PkHelsinki2050_fi_thumb.png" %}" alt="Tuhannet ideoivat tulevaisuuden Helsinkiä" title="Tuhannet ideoivat tulevaisuuden Helsinkiä" height="252" width="280"/>
             </a>
         </div>
         <div class="project-card">
-            <a href="{% static "pdf/Sipoonkorpi.pdf" %}" target="_blank">
-                <img src="{% static "img/thumbs/Paikallistietämystä_luonnonpuiston_kehitystyöhön_thumb.png" %}" alt="Sipoonkorpi" title="Sipoonkorpi" height="266" width="199"/>
+            <a href="{% static "pdf/Sipoonkorpi_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Sipoonkorpi_fi_thumb.png" %}" alt="Paikallistietämystä luonnonpuiston kehitystyöhön" title="Paikallistietämystä luonnonpuiston kehitystyöhön" height="252" width="280"/>
             </a>
         </div>
         <div class="project-card">
-            <a href="{% static "pdf/Ideakilpailun_työt_asukkaiden_arvioitaviksi.pdf" %}" target="_blank">
-                <img src="{% static "img/thumbs/Ideakilpailun_työt_asukkaiden_arvioitaviksi_thumb.png" %}" alt="Ideakilpailun työt asukkaiden arvioitaviksi" title="Ideakilpailun työt asukkaiden arvioitaviksi" height="266" width="199"/>
+            <a href="{% static "pdf/Ideakilpailun_tyot_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Ideakilpailuntyot_fi_thumb.png" %}" alt="Ideakilpailun työt asukkaiden arvioitaviksi" title="Ideakilpailun työt asukkaiden arvioitaviksi" height="252" width="280"/>
             </a>
         </div>
         <div class="project-card">
-            <a href="{% static "pdf/Kasarmista_asuinalueeksi_(Tuusula).pdf" %}" target="_blank">
-                <img src="{% static "img/thumbs/Kasarmista_asuinalueeksi_(Tuusula)_thumb.png" %}" alt="Kasarmista asuinalueeksi" title="Kasarmista asuinalueeksi" height="266" width="199"/>
+            <a href="{% static "pdf/Kasarmeista_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Kasarmeista_fi_thumb.png" %}" alt="Kasarmeista kodeiksi" title="Kasarmeista kodeiksi" height="252" width="280"/>
             </a>
         </div>
         <div class="project-card">
-            <a href="{% static "pdf/Kevätlaaksoa_kaavoitetaan_liikkumiseen_(Porvoo).pdf" %}" target="_blank">
-                <img src="{% static "img/thumbs/Kevätlaaksoa_kaavoitetaan_liikkumiseen_(Porvoo)_thumb.png" %}" alt="Kevätlaaksoa kaavoitetaan liikkumiseen" title="Kevätlaaksoa kaavoitetaan liikkumiseen" height="266" width="199"/>
+            <a href="{% static "pdf/Kevatlaakso_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Kevatlaakso_fi_thumb.png" %}" alt="Liikkumisen kartoitus kaavoituksen apuna" title="Liikkumisen kartoitus kaavoituksen apuna" height="252" width="280"/>
             </a>
         </div>
         <div class="project-card">
-            <a href="{% static "pdf/Kiinteistöyritys_kartoitti_kampusaluetta.pdf" %}" target="_blank">
-                <img src="{% static "img/thumbs/Kiinteistöyritys_kartoitti_kampusaluetta_thumb.png" %}" alt="Kiinteistöyritys kartoitti kampusaluetta" title="Kiinteistöyritys kartoitti kampusaluetta" height="266" width="199"/>
+            <a href="{% static "pdf/Aaltokampus_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Aaltokampus_fi_thumb.png" %}" alt="Kiinteistöyritys kartoitti kampusaluetta" title="Kiinteistöyritys kartoitti kampusaluetta" height="252" width="280"/>
             </a>
         </div>
         <div class="project-card">
-            <a href="{% static "pdf/Osallistavaa_suunnittelua_Hyvinkäällä_(Hangonsilta).pdf" %}" target="_blank">
-                <img src="{% static "img/thumbs/Osallistavaa_suunnittelua_Hyvinkäällä_thumb.png" %}" alt="Osallistavaa suunnittelua Hyvinkäällä" title="Osallistavaa suunnittelua Hyvinkäällä" height="266" width="199"/>
+            <a href="{% static "pdf/Hangonsilta_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Hangonsilta_fi_thumb.png" %}" alt="Osallistavaa suunnittelua Hyvinkäällä" title="Osallistavaa suunnittelua Hyvinkäällä" height="252" width="280"/>
             </a>
         </div>
         <div class="project-card">
-            <a href="{% static "pdf/Teheranilaisteinit_käyttivät_Maptionnairea_persiaksi.pdf" %}" target="_blank">
-                <img src="{% static "img/thumbs/Teheran_thumb.png" %}" alt="Teheranilaisteinit käyttivät Maptionnairea persiaksi" title="Teheranilaisteinit käyttivät Maptionnairea persiaksi" height="266" width="199"/>
+            <a href="{% static "pdf/Teheran_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Teheran_fi_thumb.png" %}" alt="Teheranilaisteinit käyttivät Maptionnairea persiaksi" title="Teheranilaisteinit käyttivät Maptionnairea persiaksi" height="252" width="280"/>
             </a>
         </div>
         <div class="project-card">
-            <a href="{% static "pdf/Viherkaavavisiot_kartalle_(Joensuu).pdf" %}" target="_blank">
-                <img src="{% static "img/thumbs/Viherkaavavisiot_kartalle_thumb.png" %}" alt="Viherkaavavisiot kartalle" title="Viherkaavavisiot kartalle" height="266" width="199"/>
+            <a href="{% static "pdf/Joensuu_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Joensuu_fi_thumb.png" %}" alt="Viherkaavavisiot kartalle" title="Viherkaavavisiot kartalle" height="252" width="280"/>
             </a>
         </div>
         <div class="project-card">
-            <a href="{% static "pdf/Yliopistossa_tutkittiin_vesistöjen_virkistyskäyttöä_(Aalto)1.pdf" %}" target="_blank">
-                <img src="{% static "img/thumbs/Yliopistossa_tutkittiin_vesistöjen_virkistyskäyttöä_thumb.png" %}" alt="Yliopistossa tutkittiin vesistöjen virkistyskäyttöä" title="Yliopistossa tutkittiin vesistöjen virkistyskäyttöä" height="266" width="199"/>
+            <a href="{% static "pdf/HKIvesistot_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/HKIvesistot_fi_thumb.png" %}" alt="Yliopistossa tutkittiin vesistöjen virkistyskäyttöä" title="Yliopistossa tutkittiin vesistöjen virkistyskäyttöä" height="252" width="280"/>
             </a>
         </div>
         <div class="project-card">
-            <a href="{% static "pdf/Riihimäki.pdf" %}" target="_blank">
-                <img src="{% static "img/thumbs/Rakennemalli_yleiskaavatyön_pohjana_thumb.png" %}" alt="Rakennemalli yleiskaavatyön pohjana" title="Rakennemalli yleiskaavatyön pohjana" height="266" width="199"/>
+            <a href="{% static "pdf/Riihimaki_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Riihimaki_fi_thumb.png" %}" alt="Rakennemalli yleiskaavatyön pohjana Riihimäellä" title="Rakennemalli yleiskaavatyön pohjana Riihimäellä" height="252" width="280"/>
             </a>
         </div>
-
+        <div class="project-card">
+            <a href="{% static "pdf/Kirkkonummi_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Kirkkonummi_fi_thumb.png" %}" alt="Asukaskysely arkkitehtuuri-poliittisen ohjelman apuna" title="Asukaskysely arkkitehtuuri-poliittisen ohjelman apuna" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/YouthMap_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/YouthMap_fi_thumb.png" %}" alt="Nettikartta nuorilta nuorille" title="Nettikartta nuorilta nuorille" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/Portugali_fi.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/Portugali_fi_thumb.png" %}" alt="Tutkimusta lasten ihannekaupungista" title="Tutkimusta lasten ihannekaupungista" height="252" width="280"/>
+            </a>
+        </div>
+    {% else %}
+        <div class="project-card">
+            <a href="{% static "pdf/en/PkHelsinki2050_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/PkHelsinki2050_en_thumb.png" %}" alt="Thousands envisioned the Helsinki of the future" title="Thousands envisioned the Helsinki of the future" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Sipoonkorpi_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Sipoonkorpi_en_thumb.png" %}" alt="Improving a national park with local insight" title="Improving a national park with local insight" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Ideakilpailun_tyot_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Ideakilpailuntyot_en_thumb.png" %}" alt="Residents evaluated architectural proposals" title="Residents evaluated architectural proposals" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Kasarmeista_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Kasarmeista_en_thumb.png" %}" alt="From barracks to homes" title="From barracks to homes" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Kevatlaakso_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Kevatlaakso_en_thumb.png" %}" alt="Urban planning for smooth transportation" title="Urban planning for smooth transportation" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Aaltokampus_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Aaltokampus_en_thumb.png" %}" alt="Designing a campus for cycling and walking" title="Designing a campus for cycling and walking" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Hangonsilta_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Hangonsilta_en_thumb.png" %}" alt="New insight into the potential of a area" title="New insight into the potential of a area" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Teheran_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Teheran_en_thumb.png" %}" alt="Tehraniteenagers used Maptionnairein farsi" title="Tehraniteenagers used Maptionnairein farsi" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Joensuu_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Joensuu_en_thumb.png" %}" alt="Mapping out ideas for a green space plan" title="Mapping out ideas for a green space plan" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/HKIvesistot_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/HKIvesistot_en_thumb.png" %}" alt="Academic research on recreational water use" title="Academic research on recreational water use" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Riihimaki_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Riihimaki_en_thumb.png" %}" alt="Model structures for anew master plan" title="Model structures for anew master plan" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Kirkkonummi_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Kirkkonummi_en_thumb.png" %}" alt="Resident survey to aid an architectural program" title="Resident survey to aid an architectural program" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/YouthMap_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/YouthMap_en_thumb.png" %}" alt="Web map for the youth, by the youth" title="Web map for the youth, by the youth" height="252" width="280"/>
+            </a>
+        </div>
+        <div class="project-card">
+            <a href="{% static "pdf/en/Portugali_en.pdf" %}" target="_blank">
+                <img src="{% static "img/thumbs/en/Portugali_en_thumb.png" %}" alt="Research on children’s ideal city" title="Research on children’s ideal city" height="252" width="280"/>
+            </a>
+        </div>
+    {% endif %}
     </div>
 </div>
 

@@ -7,18 +7,22 @@
     <div class="span11 offset1">
         <h2 class="purple">Mapita {% trans "Inc." %}</h2>
         <p>
-        {% blocktrans %}We are a small Finnish company spawned from the research group{% endblocktrans %}
-        
-        
-        <a href="http://ytk.aalto.fi/en/" target="_new">
+        {% blocktrans %}Mapita is a Finnish spinoff company, which originates from the research group{% endblocktrans %}
+
+
+        <a href="{% trans 'http://ytk.aalto.fi/en/' %}" target="_blank">
         {% blocktrans %}Land Use Planning and Urban Studies{% endblocktrans %}
-            
-        
+
+
         </a>
-        {% blocktrans %}of the Aalto university, where our team has conducted research on geographical online questionnaires since 2004.{% endblocktrans %}
-        
-        {% blocktrans %}We specialize in planning geography and environmental psychology: in short, how to build an environment loved by its inhabitants.{% endblocktrans %}
-        
+        {% blocktrans %}of Aalto University. There we have developed the softGIS method since 2004.{% endblocktrans %}
+
+        </p>
+        <p>
+        {% trans "We founded Mapita Inc.in 2010. As specialists of planning geography and environmental psychology we know how to build an environment loved by its inhabitants." %}
+        {% trans "Our versatile GIS expertise guarantees the full integration of the customer’s maps into surveys." %}
+        {% trans "With careful usability design we save our customers’ time and money." %}
+
         </p>
         <h3 class="orange">{% trans "People" %}</h3>
     </div>
@@ -113,5 +117,70 @@
         </p>
     </div>
 </div>
+<div class="row peoplerow">
+    <div class="span11 offset1">
+        <h3 class="orange">{% trans "The story of Mapita and softGIS. From sticker maps to cloud-based Maptionnaire" %}</h3>
+        <p>
+        {% trans "SoftGIS is a research method that examines the experimental knowledge of people in connection with location information." %}
+        {% trans "The word ’soft’ emphasized the human perspective at a time when location information (GIS) was rarely used outside natural sciences." %}
+        </p>
 
+        <h3 class="orange">{% trans "Valuable information by simple methods (1995—2003)" %}</h3>
+        <p>
+        {% trans "In the 1990’s, young researcher <b>Marketta Kyttä</b> invited people to workshops to place emotion stickers on maps." %}
+        {% trans "The maps showed clearly how positive or negative experiences abounded in certain places." %}
+        </p>
+        <p>
+        {% trans "This marked the beginning of the development of the softGIS method." %}
+        {% trans "It turned out to be highly valuable for e.g. architects, who appreciate a map revealing the views of locals about the area they are planning." %}
+        {% trans "SoftGIS helped the planners to understand the qualities of areas from both local and larger perspective." %}
+        </p>
+
+        <h3 class="orange">{% trans "The birth of web-based map questionnaires (2004—2009)" %}</h3>
+        <p>
+        {% trans "In 2004, a research project on the experienced quality of life took place in Järvenpää." %}
+        {% trans "For the first time, a web questionnaire was integrated in a map." %}
+        {% trans "The researchers Kyttä and <b>Maarit Kahila</b> were very happy to receive the coordinates directly in a digital form." %}
+        {% trans "The respondents could answer the questionnaire easily on their home computers." %}
+        {% trans "For the researchers managed to collect and analyze a vast response material." %}
+        </p>
+        <p>
+        {% trans "The following years saw the intense development of web-based map questionnaires." %}
+        {% trans "We improved them to be used in research and planning." %}
+        {% trans "We learned and succeeded. Now map surveys have been carried out in 6 continents." %}
+        {% trans "We have published lots of peer-reviewed research papers, and Marketta Kyttä, the mother of the softGIS method, has become the professor of land use planning." %}
+        {% trans "<b>Anna Broberg</b> has developed methods of analyzing experimental location information." %}
+
+        </p>
+        <p>
+        {% trans "In participatory planning, sofGIS opened a new operating model." %}
+        {% trans "The residents could voice their opinions by answering a questionnaire online, without attending a hearing event." %}
+        {% trans "SoftGIS complemented the traditional methods and made participation possible for thousands of people." %}
+        </p>
+
+        <h3 class="orange">{% trans "Mapita Inc. is founded to answer the need for softGIS solutions (2010— )" %}</h3>
+        <p>
+        {% trans "We founded Mapita Inc in 2010, because there was a strong demand for sofGIS research in the municipalities of Finland." %}
+        {% trans "We also started to develop our technology to produce a make it yourself survey." %}
+        {% blocktrans %}The result can be found on the pages of <a href="http://maptionnaire.com/en/" target="_blank">Maptionnaire.</a>{% endblocktrans %}
+        </p>
+        <p>
+        {% trans "We have various clients and partners in many countries." %}
+        {% trans "Some of commission the whole research from us, which means that they benefit from all of our expertise." %}
+        {% trans "Others use our technology, but want to build the surveys themselves." %}
+        </p>
+        <div>
+            <h3 class="purple">{% trans "Researcher profiles and publications" %}</h3>
+            <p>
+            <a href="http://scholar.google.fi/citations?user=-hpHzRcAAAAJ&hl=en&oi=ao">Marketta Kyttä</a>
+            </p>
+            <p>
+            <a href="http://scholar.google.fi/citations?user=qzQsb5sAAAAJ&hl=en&oi=ao">Anna Broberg</a>
+            </p>
+            <p>
+            <a href="http://scholar.google.fi/citations?user=xsdLlSAAAAAJ&hl=en&oi=ao">Maarit Kahila</a>
+            </p>
+        </div>
+    </div>
+</div>
 {% endblock %}

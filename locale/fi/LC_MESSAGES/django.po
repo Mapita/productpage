@@ -3,51 +3,279 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-17 17:26+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-08-12 09:42+0000\n"
+"PO-Revision-Date: 2014-08-13 11:16+0200\n"
+"Last-Translator: Mikko Johansson <mikko.johansson@mapita.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: templates/about-us.html:8
 msgid "Inc."
 msgstr "Oy"
 
 #: templates/about-us.html:10
-msgid "We are a small Finnish company spawned from the research group"
-msgstr "Olemme pieni yritys, jonka juuret ovat Aalto-yliopiston "
+msgid ""
+"Mapita is a Finnish spinoff company, which originates from the research group"
+msgstr "Mapita on suomalainen yritys, jonka juuret ovat Aalto-yliopiston"
+
+#: templates/about-us.html:13
+msgid "http://ytk.aalto.fi/en/"
+msgstr "http://ytk.aalto.fi/"
 
 #: templates/about-us.html:14
 msgid "Land Use Planning and Urban Studies"
-msgstr "yhdyskuntasuunnittelun tutkimus- ja koulutusryhmässä,"
+msgstr "yhdyskuntasuunnittelun tutkimus- ja koulutusryhmässä."
 
 #: templates/about-us.html:18
 msgid ""
-"of the Aalto university, where our team has conducted research on "
-"geographical online questionnaires since 2004."
-msgstr ""
-" missä olemme toteuttaneet karttapohjaisia kyselytutkimuksia vuodesta 2004."
+"of Aalto University. There we have developed the softGIS method since 2004."
+msgstr "Olemme kehittäneet siellä pehmoGIS-tutkimusta vuodesta 2004 lähtien."
 
-#: templates/about-us.html:20
+#: templates/about-us.html:22
 msgid ""
-"We specialize in planning geography and environmental psychology: in short, "
-"how to build an environment loved by its inhabitants."
+"We founded Mapita Inc.in 2010. As specialists of planning geography and "
+"environmental psychology we know how to build an environment loved by its "
+"inhabitants."
 msgstr ""
-"Erityisosaamisalueitamme on suunnittelumaantiede ja ympäristöpsykologia: "
-"lyhyesti sanottuna, kuinka rakentaa ympäristö, jota asukkaat rakastavat."
+"Perustimme Mapitan vuonna 2010. Suunnittelumaantieteen ja "
+"ympäristöpsykologian asiantuntijoina tiedämme, kuin rakennetaan ympäristö, "
+"jota asukkaat rakastavat."
 
 #: templates/about-us.html:23
+msgid ""
+"Our versatile GIS expertise guarantees the full integration of the "
+"customer’s maps into surveys."
+msgstr ""
+"Erityisosaamiseemme kuuluu myös hyvä käytettävyyssuunnittelu ja monipuolinen "
+"GIS-hallinta."
+
+#: templates/about-us.html:24
+msgid "With careful usability design we save our customers’ time and money."
+msgstr "Palvelumme säästää asiakkaan aikaa ja vaivaa."
+
+#: templates/about-us.html:27
 msgid "People"
 msgstr "Ihmiset"
+
+#: templates/about-us.html:137
+msgid ""
+"The story of Mapita and softGIS. From sticker maps to cloud-based "
+"Maptionnaire"
+msgstr ""
+"Mapitan ja pehmoGIS:in tarina – tarrakartoista pilvipohjaiseen karttakyselyyn"
+
+#: templates/about-us.html:139
+msgid ""
+"SoftGIS is a research method that examines the experimental knowledge of "
+"people in connection with location information."
+msgstr ""
+"PehmoGIS on nimitys tutkimusmenetelmille, joilla tarkastellaan ihmisten "
+"kokemustietoa yhdistettynä paikkatietoon (GIS)."
+
+#: templates/about-us.html:140
+msgid ""
+"The word ’soft’ emphasized the human perspective at a time when location "
+"information (GIS) was rarely used outside natural sciences."
+msgstr ""
+"Sanalla ’pehmo’ haluttiin painottaa inhimillistä näkökulmaa aikana, jolloin "
+"paikkatietoa käytettiin lähinnä luonnontieteissä."
+
+#: templates/about-us.html:143
+msgid "Valuable information by simple methods (1995—2003)"
+msgstr "Arvokasta tietoa yksinkertaisin menetelmin (1995—2003)"
+
+#: templates/about-us.html:145
+msgid ""
+"In the 1990’s, young researcher <b>Marketta Kyttä</b> invited people to "
+"workshops to place emotion stickers on maps."
+msgstr ""
+"1990-luvulla nuori tutkija <b>Marketta Kyttä</b> kutsui ihmisiä työpajoihin "
+"liimaamaan tunnetarroja kartalle."
+
+#: templates/about-us.html:146
+msgid ""
+"The maps showed clearly how positive or negative experiences abounded in "
+"certain places."
+msgstr ""
+"Tarrakartoista näkyi selvästi ja tarkasti, kuinka tiettyihin paikkoihin "
+"liittyi myönteisiä tai kielteisiä kokemuksia."
+
+#: templates/about-us.html:149
+msgid "This marked the beginning of the development of the softGIS method."
+msgstr "Tästä alkoi kehittyä pehmoGIS-tutkimus, jolle oli selvää tarvetta."
+
+#: templates/about-us.html:150
+msgid ""
+"It turned out to be highly valuable for e.g. architects, who appreciate a "
+"map revealing the views of locals about the area they are planning."
+msgstr ""
+"Arkkitehdeille on nimittäin kullanarvoista saada käteensä kartta, josta "
+"selviää kaavoitettavan alueen asukkaiden näkemyksiä siitä."
+
+#: templates/about-us.html:151
+msgid ""
+"SoftGIS helped the planners to understand the qualities of areas from both "
+"local and larger perspective."
+msgstr ""
+"PehmoGIS auttoi suunnittelijoita ymmärtämään alueiden ominaisuuksia sekä "
+"paikallisesta että laajemmasta perspektiivistä."
+
+#: templates/about-us.html:154
+msgid "The birth of web-based map questionnaires (2004—2009)"
+msgstr "Verkkopohjaisten karttakyselyjen synty (2004—2009)"
+
+#: templates/about-us.html:156
+msgid ""
+"In 2004, a research project on the experienced quality of life took place in "
+"Järvenpää."
+msgstr ""
+"Vuonna 2004 tehtiin Järvenpäässä tutkimus, jossa kysely rakennettiin "
+"verkkokartan päälle."
+
+#: templates/about-us.html:157
+msgid "For the first time, a web questionnaire was integrated in a map."
+msgstr "Se tutki elinympäristön koettua laatua."
+
+#: templates/about-us.html:158
+msgid ""
+"The researchers Kyttä and <b>Maarit Kahila</b> were very happy to receive "
+"the coordinates directly in a digital form."
+msgstr ""
+"Tutkijoille Kyttä ja <b>Maarit Kahila</b> oli suuri helpotus saada "
+"vastausten koordinaatit suoraan sähköisessä muodossa."
+
+#: templates/about-us.html:159
+msgid ""
+"The respondents could answer the questionnaire easily on their home "
+"computers."
+msgstr "Vastaajat täyttivät kyselyn vaivatta kotikoneiltaan."
+
+#: templates/about-us.html:160
+msgid ""
+"For the researchers managed to collect and analyze a vast response material."
+msgstr ""
+"Ensimmäistä kertaa saatiin kerättyä todella laaja aineisto ja analysoitua "
+"sitä tehokkaasti."
+
+#: templates/about-us.html:163
+msgid ""
+"The following years saw the intense development of web-based map "
+"questionnaires."
+msgstr "Seuraavina vuosina hioimme www-karttakyselyjä."
+
+#: templates/about-us.html:164
+msgid "We improved them to be used in research and planning."
+msgstr ""
+"Pohdimme, miten niitä voisi parhaiten hyödyntää tutkimuksessa ja "
+"suunnittelussa."
+
+#: templates/about-us.html:165
+msgid ""
+"We learned and succeeded. Now map surveys have been carried out in 6 "
+"continents."
+msgstr ""
+"Opimme ja onnistuimme. Nyt kyselyitä on toteutettu kuudella mantereella ja "
+"tieteellisiä artikkeleita julkaistu vino pino."
+
+#: templates/about-us.html:166
+msgid ""
+"We have published lots of peer-reviewed research papers, and Marketta Kyttä, "
+"the mother of the softGIS method, has become the professor of land use "
+"planning."
+msgstr ""
+"PehmoGIS:in äidistä Marketta Kytästä on tullut maankäytön suunnittelun "
+"professori."
+
+#: templates/about-us.html:167
+msgid ""
+"<b>Anna Broberg</b> has developed methods of analyzing experimental location "
+"information."
+msgstr ""
+"<b>Anna Broberg</b> on kehittänyt tapoja analysoida kokemuspohjaista "
+"paikkatietoa."
+
+#: templates/about-us.html:171
+msgid "In participatory planning, sofGIS opened a new operating model."
+msgstr ""
+"Osallistavassa suunnittelussa pehmoGIS avasi kokonaan uuden toimintamallin."
+
+#: templates/about-us.html:172
+msgid ""
+"The residents could voice their opinions by answering a questionnaire "
+"online, without attending a hearing event."
+msgstr ""
+"Asukkaiden ei tarvinnut enää saapua kuulemistilaisuuteen tai työpajaan "
+"saadakseen äänensä kuuluviin."
+
+#: templates/about-us.html:173
+msgid ""
+"SoftGIS complemented the traditional methods and made participation possible "
+"for thousands of people."
+msgstr ""
+"PehmoGIS astui perinteisten metodien rinnalle, ja mahdollisti tuhansien "
+"ihmisten kuulemisen."
+
+#: templates/about-us.html:176
+msgid ""
+"Mapita Inc. is founded to answer the need for softGIS solutions (2010— )"
+msgstr "Mapita Oy vastaa pehmoGIS-kysyntään (2010—)"
+
+#: templates/about-us.html:178
+msgid ""
+"We founded Mapita Inc in 2010, because there was a strong demand for sofGIS "
+"research in the municipalities of Finland."
+msgstr ""
+"Perustimme Mapita Oy:n vuonna 2010, koska suomalaisissa kunnissa oli "
+"kysyntää pehmoGIS-tutkimuksille."
+
+#: templates/about-us.html:179
+msgid ""
+"We also started to develop our technology to produce a make it yourself "
+"survey."
+msgstr ""
+"Aloimme myös kehittää niiden teknologiaa suuntaan, joka mahdollistaisi tee-"
+"se-itse-karttakyselyn."
+
+#: templates/about-us.html:180
+msgid ""
+"The result can be found on the pages of <a href=\"http://maptionnaire.com/en/"
+"\" target=\"_blank\">Maptionnaire.</a>"
+msgstr ""
+"Tulosta voit kokeilla  <a href=\"http://maptionnaire.com/fi/\" target="
+"\"_blank\">Maptionnairen</a> sivuilla."
+
+#: templates/about-us.html:183
+msgid "We have various clients and partners in many countries."
+msgstr ""
+"Nykyään meillä on monenlaisia asiakkaita ja kumppaneita Suomessa ja "
+"ulkomailla."
+
+#: templates/about-us.html:184
+msgid ""
+"Some of commission the whole research from us, which means that they benefit "
+"from all of our expertise."
+msgstr ""
+"Jotkut tilaavat meitä koko tutkimuksen ja saavat käyttöönsä kaiken "
+"asiantuntemuksemme."
+
+#: templates/about-us.html:185
+msgid "Others use our technology, but want to build the surveys themselves."
+msgstr ""
+"Toiset asiakkaat ostavat vain käyttöoikeuden Maptionnaireen ja rakentavat "
+"sen avulla omia kyselyitä."
+
+#: templates/about-us.html:188
+msgid "Researcher profiles and publications"
+msgstr "Tutkijaprofiilit ja julkaisut"
 
 #: templates/base.html:57
 msgid "Home"
@@ -65,9 +293,9 @@ msgstr "Mapita"
 msgid "Our customers"
 msgstr "Asiakkaamme"
 
-#: templates/base.html:71
-msgid "Asiakasprojekteja"
-msgstr ""
+#: templates/base.html:70 templates/project-cards.html:8
+msgid "Customer projects"
+msgstr "Asiakasprojekteja"
 
 #: templates/index.html:7
 msgid "Maptionnaire helps you ask 'where'"
@@ -169,10 +397,6 @@ msgstr "Kuka"
 #: templates/our-customers.html:21
 msgid "What (In Finnish)"
 msgstr "Mitä"
-
-#: templates/our-customers.html:281
-msgid "Researcher profiles and publications"
-msgstr "Tutkijaprofiilit ja julkaisut"
 
 #: templates/products-and-services.html:13
 msgid ""
@@ -308,10 +532,6 @@ msgstr ""
 msgid "Digital coordinates enable efficient analysis and visualizations."
 msgstr "Digitaaliset koordinaatit tehostavat analyysiä ja visualisointeja."
 
-#: templates/project-cards.html:8
-msgid "Customer projects"
-msgstr "Asiakasprojekteja"
-
 #: templates/project-cards.html:10
 msgid "Mapita has had the privilege of working with a number of customers."
 msgstr "Toimintamme vuosiin mahtuu monta onnistunutta tarinaa."
@@ -353,6 +573,20 @@ msgstr "Rykmentinpuiston kaavavaihtoehtojen arviointi."
 #: templates/what-makes-it-different.html:21
 msgid "Survey for the evaluation of coastal areas in Helsinki"
 msgstr "Kysely vesialueiden käytöstä pääkaupunkiseudulla"
+
+#~ msgid ""
+#~ "We specialize in planning geography and environmental psychology: in "
+#~ "short, how to build an environment loved by its inhabitants."
+#~ msgstr ""
+#~ "Erityisosaamisalueitamme on suunnittelumaantiede ja ympäristöpsykologia: "
+#~ "lyhyesti sanottuna, kuinka rakentaa ympäristö, jota asukkaat rakastavat."
+
+#~ msgid ""
+#~ "of the Aalto university, where our team has conducted research on "
+#~ "geographical online questionnaires since 2004."
+#~ msgstr ""
+#~ " missä olemme toteuttaneet karttapohjaisia kyselytutkimuksia vuodesta "
+#~ "2004."
 
 #~ msgid ""
 #~ "Create questionnaires with our tool Maptionnaire or buy the research from "
